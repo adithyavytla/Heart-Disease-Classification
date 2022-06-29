@@ -7,6 +7,7 @@ This is a temporary script file.
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 model = pickle.load(open('forest.pkl','rb'))
 
 with st.sidebar:
